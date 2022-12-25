@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.w {
+  width: 17.325rem;
+  margin: 0.5rem auto;
+}
+html {
+  font-size: 10.66666667vw;
+  background-color: #fff;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  width: 8.875rem;
+  height: 1rem;
+  padding: 0 0 0 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.header .log {
+  width: 2.75rem;
+  height: 100%;
+  background: url(../img/index/10015.png) center center no-repeat;
+  background-size: contain;
+}
+.header .yb {
+  width: 2rem;
+  display: flex;
+}
+.header .yb a {
+  display: block;
+  height: 100%;
+  width: 0.75rem;
+  background: center center no-repeat;
+  background-repeat: no-repeat;
+  background-size: 0.55rem 0.55rem;
+}
+.header .yb .fdj {
+  background-image: url(../img/index/10016.png);
+}
+.header .yb .gr {
+  margin-left: 0.125rem;
+  margin-right: 0.375rem;
+  background-image: url(../img/index/10017.png);
+}
