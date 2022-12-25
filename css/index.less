@@ -50,3 +50,42 @@ a{
         }
     }
 }
+
+.nav{
+    height: @px*32;
+    padding: @px*4 @px*15;
+    // background-color: #dfa;
+    ul{
+        display: flex;
+        
+        li{
+            a{
+                height:@px*32;
+                display: block;
+                font-size: 15*@px;
+                line-height: @px*32;
+                text-align: center;
+                color: #000;
+            }
+            width: @px*60;
+            // background-color: red;
+        }
+        .alt{
+            a{
+                font-size: 17*@px;
+                font-weight: 800;
+            }
+            position: relative;
+        }
+        .alt::after{
+            position: absolute;
+            content: "";
+            width: 12*@px;
+            height: 3*@px;
+            bottom: -2*@px;
+            left: 24*@px;
+            background: #E64D2E;
+            border-radius: 3*@px;
+        }
+    }
+}
