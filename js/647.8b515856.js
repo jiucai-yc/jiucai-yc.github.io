@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkvue_project"]=self["webpackChunkvue_project"]||[]).push([[647],{647:function(e,u,n){n.r(u),n.d(u,{default:function(){return f}});var s=function(){var e=this,u=e._self._c;return u("div",[e._v(" Mymysics ")])},t=[],c={name:"Mymysics"},r=c,l=n(1001),i=(0,l.Z)(r,s,t,!1,null,null,null),f=i.exports}}]);
+//# sourceMappingURL=647.8b515856.js.map
